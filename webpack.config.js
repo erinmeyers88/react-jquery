@@ -1,11 +1,11 @@
 module.exports = {
   entry: {
-    app: './app/App.js'
+    app: './app/App.jsx'
   },
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         include: /app/,
         exclude: /node_modules/,
         loader: 'babel-loader'
